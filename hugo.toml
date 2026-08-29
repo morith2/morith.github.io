@@ -1,0 +1,32 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'zh-cn'
+title = 'Morith 的新世界'
+theme = 'PaperMod'
+
+[params]
+    env = 'development'
+    description = '记录学习、技术与生活'
+    author = 'Morith'
+
+    defaultTheme = 'auto'
+    ShowReadingTime = true
+    ShowShareButtons = false
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true
+
+    [params.homeInfoParams]
+        Title = 'Hello, 这里是morith'
+        Content = '这里都是一些morith的碎碎念'
+
+[[menu.main]]
+    identifier = 'posts'
+    name = '文章'
+    url = '/posts/'
+    weight = 10
+
+[[menu.main]]
+    identifier = 'tags'
+    name = '标签'
+    url = '/tags/'
+    weight = 20
